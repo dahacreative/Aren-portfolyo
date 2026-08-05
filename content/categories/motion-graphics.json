@@ -1,0 +1,36 @@
+{
+  "title": "motion graphics",
+  "color": "#BA3FC7",
+  "brands": [
+    {
+      "id": "sample-motion-1",
+      "name": "örnek marka 1",
+      "subtitle": "motion graphics",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Marka+1&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Motion+1"
+      ]
+    },
+    {
+      "id": "sample-motion-2",
+      "name": "örnek marka 2",
+      "subtitle": "motion graphics",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Marka+2&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Motion+2"
+      ]
+    },
+    {
+      "id": "sample-motion-3",
+      "name": "örnek marka 3",
+      "subtitle": "motion graphics",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Marka+3&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Motion+3"
+      ]
+    }
+  ]
+}

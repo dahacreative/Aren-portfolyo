@@ -1,0 +1,98 @@
+{
+  "title": "advertising design",
+  "color": "#D6667A",
+  "brands": [
+    {
+      "id": "jekyll-hyde-musical",
+      "name": "jekyll & hyde musical",
+      "subtitle": "visual and campaign design",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Jekyll+%26+Hyde&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/D6667A?text=Jekyll+%26+Hyde+Key+Visual",
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Jekyll+%26+Hyde+Poster+2",
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Jekyll+%26+Hyde+Poster+3"
+      ]
+    },
+    {
+      "id": "kariyer-net-campaign",
+      "name": "kariyer.net",
+      "subtitle": "advertising campaign",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=kariyer.net&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=kariyer.net+Campaign"
+      ]
+    },
+    {
+      "id": "linns-coffee-ad",
+      "name": "linn's coffee",
+      "subtitle": "advertising design",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Linn%27s+Coffee&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Linn%27s+Coffee+Ad"
+      ]
+    },
+    {
+      "id": "peoplebox-ad",
+      "name": "peoplebox",
+      "subtitle": "advertising design",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=PeopleBox&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=PeopleBox+Ad"
+      ]
+    },
+    {
+      "id": "coensio-ad",
+      "name": "coensio",
+      "subtitle": "advertising campaign",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=COENSIO&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/ffffff/1a1a1a?text=COENSIO+Campaign"
+      ]
+    },
+    {
+      "id": "luppo-ad",
+      "name": "luppo",
+      "subtitle": "advertising design",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=LUPPO&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Luppo+Ad"
+      ]
+    },
+    {
+      "id": "nutymax-ad",
+      "name": "nutymax",
+      "subtitle": "advertising design",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Nutymax&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Nutymax+Ad"
+      ]
+    },
+    {
+      "id": "ultra-compact-ad",
+      "name": "ultra compact",
+      "subtitle": "advertising design",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Ultra+Compact&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Ultra+Compact+Ad"
+      ]
+    },
+    {
+      "id": "koczer-ad",
+      "name": "koçzer",
+      "subtitle": "advertising design",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Ko%C3%A7Zer&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Ko%C3%A7Zer+Ad"
+      ]
+    }
+  ]
+}

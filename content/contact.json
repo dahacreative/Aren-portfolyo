@@ -1,0 +1,11 @@
+{
+  "color": "#9A9A9A",
+  "email": "arenselvioglu@dahacreative.com",
+  "phone": "+90 5xx xxx xx xx",
+  "address": "İstanbul, Türkiye",
+  "social": [
+    { "label": "Instagram", "url": "https://instagram.com/" },
+    { "label": "LinkedIn", "url": "https://linkedin.com/" },
+    { "label": "Behance", "url": "https://behance.net/" }
+  ]
+}

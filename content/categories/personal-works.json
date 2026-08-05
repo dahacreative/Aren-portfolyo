@@ -1,0 +1,36 @@
+{
+  "title": "personal works",
+  "color": "#5B4FEE",
+  "brands": [
+    {
+      "id": "sample-personal-1",
+      "name": "kişisel çalışma 1",
+      "subtitle": "personal works",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Kisisel+1&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Kisisel+1"
+      ]
+    },
+    {
+      "id": "sample-personal-2",
+      "name": "kişisel çalışma 2",
+      "subtitle": "personal works",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Kisisel+2&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Kisisel+2"
+      ]
+    },
+    {
+      "id": "sample-personal-3",
+      "name": "kişisel çalışma 3",
+      "subtitle": "personal works",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Kisisel+3&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Kisisel+3"
+      ]
+    }
+  ]
+}

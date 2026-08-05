@@ -1,0 +1,112 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# ÖNEMLİ: Cloudinary hesabını bağlamak için aşağıdaki iki değeri kendi
+# Cloudinary bilgilerinle değiştir (README.md içinde adımlar var).
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: CLOUDINARY_CLOUD_NAME_BURAYA
+    api_key: CLOUDINARY_API_KEY_BURAYA
+
+locale: "en"
+site_url: https://SITE-ADIN.netlify.app
+
+collections:
+  - name: "settings"
+    label: "Ayarlar (Menü & Renkler)"
+    files:
+      - name: "settings"
+        label: "Genel Ayarlar"
+        file: "content/settings.json"
+        fields:
+          - { label: "Site Başlığı", name: "siteTitle", widget: "string" }
+          - label: "Menü Öğeleri"
+            name: "nav"
+            widget: "list"
+            summary: "{{fields.label}}"
+            fields:
+              - { label: "ID (değiştirme, linkler buna bağlı)", name: "id", widget: "string" }
+              - { label: "Görünen Etiket", name: "label", widget: "string" }
+              - label: "Tür"
+                name: "type"
+                widget: "select"
+                options: ["about", "category", "contact"]
+              - { label: "Renk", name: "color", widget: "color" }
+
+  - name: "about"
+    label: "aren selvioğlu (Hakkında)"
+    files:
+      - name: "about"
+        label: "Hakkında Sayfası"
+        file: "content/about.json"
+        fields:
+          - { label: "İsim", name: "name", widget: "string" }
+          - { label: "Ünvan", name: "title", widget: "string" }
+          - { label: "Şirket", name: "company", widget: "string" }
+          - { label: "E-posta", name: "email", widget: "string" }
+          - { label: "Panel Rengi", name: "color", widget: "color" }
+          - { label: "Fotoğraf", name: "photo", widget: "image", required: false }
+          - { label: "Biyografi", name: "bio", widget: "text" }
+
+  - name: "contact"
+    label: "İletişim"
+    files:
+      - name: "contact"
+        label: "İletişim Sayfası"
+        file: "content/contact.json"
+        fields:
+          - { label: "Panel Rengi", name: "color", widget: "color" }
+          - { label: "E-posta", name: "email", widget: "string" }
+          - { label: "Telefon", name: "phone", widget: "string", required: false }
+          - { label: "Adres", name: "address", widget: "string", required: false }
+          - label: "Sosyal Medya Linkleri"
+            name: "social"
+            widget: "list"
+            required: false
+            summary: "{{fields.label}}"
+            fields:
+              - { label: "Etiket", name: "label", widget: "string" }
+              - { label: "Link (URL)", name: "url", widget: "string" }
+
+  - name: "categories"
+    label: "Kategoriler & Markalar"
+    files:
+      - name: "logo-design"
+        label: "Logo Design"
+        file: "content/categories/logo-design.json"
+        fields: &categoryFields
+          - { label: "Sayfa Başlığı", name: "title", widget: "string" }
+          - { label: "Panel Rengi", name: "color", widget: "color" }
+          - label: "Markalar / İşler"
+            name: "brands"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "ID (benzersiz, boşluksuz, örn: marka-adi)", name: "id", widget: "string" }
+              - { label: "Marka / İş Adı", name: "name", widget: "string" }
+              - { label: "Alt Başlık", name: "subtitle", widget: "string", required: false }
+              - { label: "Açıklama Metni", name: "description", widget: "text", required: false }
+              - { label: "Logo / Kapak Görseli (grid'de görünen)", name: "logo", widget: "image" }
+              - label: "Popup Galeri Görselleri (sırayla gösterilir)"
+                name: "images"
+                widget: "list"
+                required: false
+                field: { label: "Görsel", name: "image", widget: "image" }
+      - name: "advertising-design"
+        label: "Advertising Design"
+        file: "content/categories/advertising-design.json"
+        fields: *categoryFields
+      - name: "motion-graphics"
+        label: "Motion Graphics"
+        file: "content/categories/motion-graphics.json"
+        fields: *categoryFields
+      - name: "personal-works"
+        label: "Personal Works"
+        file: "content/categories/personal-works.json"
+        fields: *categoryFields
+      - name: "awards"
+        label: "Awards"
+        file: "content/categories/awards.json"
+        fields: *categoryFields

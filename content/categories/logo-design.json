@@ -1,0 +1,100 @@
+{
+  "title": "logo design",
+  "color": "#4F9E7C",
+  "brands": [
+    {
+      "id": "jekyll-hyde",
+      "name": "jekyll & hyde",
+      "subtitle": "logo and identity design",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Jekyll+%26+Hyde&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Jekyll+%26+Hyde+1",
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Jekyll+%26+Hyde+2"
+      ]
+    },
+    {
+      "id": "kariyer-net",
+      "name": "kariyer.net",
+      "subtitle": "logo and brandguide design",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=kariyer.net&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=kariyer.net+1",
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=kariyer.net+2"
+      ]
+    },
+    {
+      "id": "linns-coffee",
+      "name": "linn's coffee",
+      "subtitle": "logo design",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Linn%27s+Coffee&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Linn%27s+Coffee+1"
+      ]
+    },
+    {
+      "id": "peoplebox",
+      "name": "peoplebox",
+      "subtitle": "logo design",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=PeopleBox&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=PeopleBox+1"
+      ]
+    },
+    {
+      "id": "coensio",
+      "name": "coensio",
+      "subtitle": "logo and brandguide design",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=COENSIO&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/ffffff/1a1a1a?text=COENSIO",
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Coensio+Brandguide",
+        "https://placehold.co/1200x800/4F9E7C/ffffff?text=Coensio+Stationery"
+      ]
+    },
+    {
+      "id": "luppo",
+      "name": "luppo",
+      "subtitle": "logo design",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=LUPPO&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Luppo+1"
+      ]
+    },
+    {
+      "id": "nutymax",
+      "name": "nutymax",
+      "subtitle": "logo design",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Nutymax&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Nutymax+1"
+      ]
+    },
+    {
+      "id": "ultra-compact",
+      "name": "ultra compact",
+      "subtitle": "logo design",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Ultra+Compact&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Ultra+Compact+1"
+      ]
+    },
+    {
+      "id": "koczer",
+      "name": "koçzer",
+      "subtitle": "logo design",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Ko%C3%A7Zer&font=roboto",
+      "images": [
+        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Ko%C3%A7Zer+1"
+      ]
+    }
+  ]
+}

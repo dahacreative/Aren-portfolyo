@@ -1,0 +1,12 @@
+{
+  "siteTitle": "aren selvioğlu",
+  "nav": [
+    { "id": "aren-selvioglu", "label": "aren selvioğlu", "type": "about", "color": "#F5A83C" },
+    { "id": "logo-design", "label": "logo design", "type": "category", "color": "#4F9E7C" },
+    { "id": "advertising-design", "label": "advertising design", "type": "category", "color": "#D6667A" },
+    { "id": "motion-graphics", "label": "motion graphics", "type": "category", "color": "#BA3FC7" },
+    { "id": "personal-works", "label": "personal works", "type": "category", "color": "#5B4FEE" },
+    { "id": "awards", "label": "awards", "type": "category", "color": "#F2811E" },
+    { "id": "contact", "label": "contact", "type": "contact", "color": "#9A9A9A" }
+  ]
+}
