@@ -11,7 +11,7 @@ media_library:
     api_key: CLOUDINARY_API_KEY_BURAYA
 
 locale: "en"
-site_url: https://SITE-ADIN.netlify.app
+site_url: https://arenselvi.netlify.app/
 
 collections:
   - name: "settings"
