@@ -91,18 +91,31 @@ collections:
               - { label: "ID (benzersiz, boşluksuz, örn: marka-adi)", name: "id", widget: "string" }
               - { label: "Marka / İş Adı", name: "name", widget: "string" }
               - { label: "Alt Başlık", name: "subtitle", widget: "string", required: false }
-              - { label: "Açıklama Metni", name: "description", widget: "text", required: false }
+              - label: "Açıklama Metni (opsiyonel, kısa tanıtım)"
+                name: "description"
+                widget: "text"
+                required: false
               - { label: "Logo / Kapak Görseli (grid'de görünen)", name: "logo", widget: "image" }
               - label: "Video Linki (opsiyonel)"
                 name: "video"
                 widget: "string"
                 required: false
                 hint: "Videoyu Cloudinary'ye (ya da YouTube/Vimeo'ya) elle yükle, buraya sadece linkini yapıştır. Popup açılınca ilk sırada bu video oynar."
-              - label: "Popup Galeri Görselleri (sırayla gösterilir)"
+              - label: "Popup Galeri Görselleri (sırayla gösterilir, ok tuşlarıyla gezilir)"
                 name: "images"
                 widget: "list"
                 required: false
+                hint: "Aşağıdaki 'Tıklanabilir Liste' doldurulursa bu galeri yerine o liste kullanılır."
                 field: { label: "Görsel", name: "image", widget: "image" }
+              - label: "Tıklanabilir Liste (ör. Awards için: her satır bir kazanım, tıklanınca sağda o işin görseli açılır)"
+                name: "entries"
+                widget: "list"
+                required: false
+                summary: "{{fields.label}}"
+                hint: "Bu doldurulursa yukarıdaki galeri yerine bu liste kullanılır. Her satır için hem metni hem görseli gir."
+                fields:
+                  - { label: "Liste Metni (ör. '2019 — Gold, Getir Campaign')", name: "label", widget: "string" }
+                  - { label: "Görsel", name: "image", widget: "image" }
       - name: "advertising-design"
         label: "Advertising Design"
         file: "content/categories/advertising-design.json"

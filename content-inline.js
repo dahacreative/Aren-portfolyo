@@ -60,20 +60,24 @@ window.__INLINE_CONTENT = {
   "content/contact.json": {
     "color": "#9A9A9A",
     "email": "arenselvioglu@dahacreative.com",
-    "phone": "+90 5xx xxx xx xx",
+    "phone": "+90 5492631818",
     "address": "İstanbul, Türkiye",
     "social": [
       {
-        "label": "Instagram",
-        "url": "https://instagram.com/"
+        "label": "Instagram - Aren Selvioğlu",
+        "url": "https://www.instagram.com/arenselvi/"
       },
       {
         "label": "LinkedIn",
-        "url": "https://linkedin.com/"
+        "url": "https://www.linkedin.com/in/aren-selvioglu-1737a351/"
       },
       {
-        "label": "Behance",
-        "url": "https://behance.net/"
+        "label": "Upwork",
+        "url": "https://www.upwork.com/freelancers/~016b9e21f5944cebde"
+      },
+      {
+        "label": "Instagram - Art of Nodji",
+        "url": "https://www.instagram.com/art_of_nodji/"
       }
     ]
   },
@@ -355,11 +359,21 @@ window.__INLINE_CONTENT = {
       {
         "id": "sample-award-1",
         "name": "cannes lions",
-        "subtitle": "gold - 2019",
-        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+        "subtitle": "birden fazla kez kazanıldı",
         "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Cannes+Lions&font=roboto",
-        "images": [
-          "https://placehold.co/1200x800/1a1a1a/ffffff?text=Cannes+Lions"
+        "entries": [
+          {
+            "label": "2019 — Gold, Getir Campaign",
+            "image": "https://placehold.co/1200x800/1a1a1a/ffffff?text=Getir+Campaign"
+          },
+          {
+            "label": "2020 — Silver, Burger King Campaign",
+            "image": "https://placehold.co/1200x800/1a1a1a/ffffff?text=Burger+King+Campaign"
+          },
+          {
+            "label": "2022 — Bronze, Ford Campaign",
+            "image": "https://placehold.co/1200x800/1a1a1a/ffffff?text=Ford+Campaign"
+          }
         ]
       },
       {

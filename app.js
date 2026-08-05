@@ -199,6 +199,18 @@
   function openPopupForBrand(cat, brandId, catId) {
     var brand = findBrand(cat, brandId);
     if (!brand) return;
+
+    // "entries" varsa (ör. awards): sol tarafta tıklanabilir bir liste
+    // gösterilir, her satır kendi görselini sağda açar (galeri modu yerine).
+    if (brand.entries && brand.entries.length) {
+      var entryMedia = brand.entries.map(function (e) {
+        return { type: "image", src: e.image, label: e.label };
+      });
+      currentPopupState = { media: entryMedia, index: 0, brand: brand, color: cat.color, catId: catId, mode: "entries" };
+      renderPopup();
+      return;
+    }
+
     var media = [];
     if (brand.video) {
       var v = toEmbed(brand.video);
@@ -208,7 +220,7 @@
       media.push({ type: "image", src: src });
     });
     if (!media.length && brand.logo) media.push({ type: "image", src: brand.logo });
-    currentPopupState = { media: media, index: 0, brand: brand, color: cat.color, catId: catId };
+    currentPopupState = { media: media, index: 0, brand: brand, color: cat.color, catId: catId, mode: "gallery" };
     renderPopup();
   }
 
@@ -243,6 +255,23 @@
         mediaHtml = '<img src="' + esc(item.src) + '" alt="' + esc(b.name) + '">';
       }
     }
+    var isEntries = st.mode === "entries";
+    var entriesHtml = "";
+    if (isEntries) {
+      entriesHtml = '<ul class="popup-entries">';
+      st.media.forEach(function (m, i) {
+        entriesHtml +=
+          '<li><button class="entry-item' +
+          (i === st.index ? " active" : "") +
+          '" data-idx="' +
+          i +
+          '">' +
+          esc(m.label || "Öğe " + (i + 1)) +
+          "</button></li>";
+      });
+      entriesHtml += "</ul>";
+    }
+
     wrap.innerHTML =
       '<div class="popup-modal" style="--brand-color:' + st.color + '">' +
       '<button class="popup-close" aria-label="Kapat">&times;</button>' +
@@ -250,12 +279,13 @@
       "<h2>" + esc(b.name) + "</h2>" +
       (b.subtitle ? '<p class="subtitle">' + esc(b.subtitle) + "</p>" : "") +
       (b.description ? '<p class="desc">' + esc(b.description) + "</p>" : "") +
+      entriesHtml +
       "</div>" +
       '<div class="popup-image-wrap">' +
-      (st.media.length > 1 ? '<button class="popup-nav-btn prev" aria-label="Önceki">&lsaquo;</button>' : "") +
+      (!isEntries && st.media.length > 1 ? '<button class="popup-nav-btn prev" aria-label="Önceki">&lsaquo;</button>' : "") +
       mediaHtml +
-      (st.media.length > 1 ? '<button class="popup-nav-btn next" aria-label="Sonraki">&rsaquo;</button>' : "") +
-      (st.media.length > 1 ? '<span class="popup-counter">' + (st.index + 1) + " / " + st.media.length + "</span>" : "") +
+      (!isEntries && st.media.length > 1 ? '<button class="popup-nav-btn next" aria-label="Sonraki">&rsaquo;</button>' : "") +
+      (!isEntries && st.media.length > 1 ? '<span class="popup-counter">' + (st.index + 1) + " / " + st.media.length + "</span>" : "") +
       "</div></div>";
 
     document.body.appendChild(wrap);
@@ -280,6 +310,12 @@
           renderPopup();
         }
       });
+    Array.prototype.forEach.call(wrap.querySelectorAll(".entry-item"), function (btn) {
+      btn.addEventListener("click", function () {
+        currentPopupState.index = parseInt(btn.getAttribute("data-idx"), 10);
+        renderPopup();
+      });
+    });
   }
 
   document.addEventListener("keydown", function (e) {
