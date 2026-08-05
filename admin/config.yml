@@ -7,8 +7,8 @@ backend:
 media_library:
   name: cloudinary
   config:
-    cloud_name: CLOUDINARY_CLOUD_NAME_BURAYA
-    api_key: CLOUDINARY_API_KEY_BURAYA
+    cloud_name: liktnikz
+    api_key: 554196976855164
 
 locale: "en"
 site_url: https://arenselvi.netlify.app/
