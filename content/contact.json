@@ -1,11 +1,24 @@
 {
   "color": "#9A9A9A",
   "email": "arenselvioglu@dahacreative.com",
-  "phone": "+90 5xx xxx xx xx",
+  "phone": "+90 5492631818",
   "address": "İstanbul, Türkiye",
   "social": [
-    { "label": "Instagram", "url": "https://instagram.com/" },
-    { "label": "LinkedIn", "url": "https://linkedin.com/" },
-    { "label": "Behance", "url": "https://behance.net/" }
+    {
+      "label": "Instagram - Aren Selvioğlu",
+      "url": "https://www.instagram.com/arenselvi/"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/aren-selvioglu-1737a351/"
+    },
+    {
+      "label": "Upwork",
+      "url": "https://www.upwork.com/freelancers/~016b9e21f5944cebde"
+    },
+    {
+      "label": "Instagram - Art of Nodji",
+      "url": "https://www.instagram.com/art_of_nodji/"
+    }
   ]
 }
