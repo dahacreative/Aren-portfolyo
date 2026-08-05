@@ -15,7 +15,7 @@ html, body {
   padding: 0;
   background: var(--bg-light);
   color: var(--text-dark);
-  font-family: var(--sans);
+  font-family: var(--serif);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -36,6 +36,16 @@ button { font-family: inherit; }
   border-bottom: 1px solid rgba(0,0,0,0.06);
   overflow-x: auto;
 }
+.home-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-dark);
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+.home-btn:hover { opacity: 1; }
+.home-btn svg { width: 19px; height: 19px; display: block; }
 .topnav a {
   font-family: var(--serif);
   font-size: 15px;
@@ -176,7 +186,7 @@ button { font-family: inherit; }
   filter: grayscale(1);
   display: block;
 }
-.about-info { max-width: 100%; }
+.about-info { max-width: 100%; text-align: right; }
 .about-hero h1 {
   font-family: var(--serif);
   font-size: clamp(32px, 4vw, 44px);
@@ -205,14 +215,15 @@ button { font-family: inherit; }
   margin: 0;
 }
 
-/* Masaüstü: fotoğraf iki panelin ortasına (dikişe) biner,
-   isim/unvan solda, biyografi sağda — orijinal tasarıma göre. */
+/* Masaüstü: fotoğraf iki panelin dikişine (ortasına) biner,
+   isim solda, biyografi fotoğrafın sağında — referans tasarıma göre. */
 @media (min-width: 821px) {
   .about-page {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   .about-hero {
+    position: relative;
     padding: 0 0 0 60px;
     overflow: visible;
   }
@@ -220,16 +231,17 @@ button { font-family: inherit; }
     position: absolute;
     top: 64px;
     left: 100%;
-    transform: translateX(-50%);
+    /* Fotoğrafın beyaz (gri) tarafa taşan kısmı, kendi genişliğinin
+       çeyreği kadar olacak şekilde sola kaydırıldı (önceden yarısı kadardı). */
+    transform: translateX(-75%);
     width: clamp(260px, 27vw, 400px);
     margin: 0;
   }
   .about-info {
     position: absolute;
-    top: 300px;
-    left: 60px;
+    top: 70px;
+    right: calc(clamp(195px, 20.25vw, 300px) + 28px);
     max-width: 360px;
-    padding-right: 40px;
   }
   .about-bio-wrap {
     position: relative;
@@ -237,10 +249,9 @@ button { font-family: inherit; }
   }
   .about-bio {
     position: absolute;
-    top: 500px;
-    left: 60px;
-    right: 60px;
-    max-width: 560px;
+    top: 70px;
+    left: calc(clamp(65px, 6.75vw, 100px) + 28px);
+    max-width: 460px;
   }
 }
 
@@ -327,10 +338,17 @@ button { font-family: inherit; }
   position: relative;
   min-height: 340px;
 }
-.popup-image-wrap img {
+.popup-image-wrap img,
+.popup-image-wrap video {
   max-width: 100%;
   max-height: 70vh;
   object-fit: contain;
+}
+.popup-image-wrap iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: 70vh;
+  border: none;
 }
 .popup-close {
   position: absolute;

@@ -2,8 +2,12 @@ backend:
   name: git-gateway
   branch: main
 
-# ÖNEMLİ: Cloudinary hesabını bağlamak için aşağıdaki iki değeri kendi
-# Cloudinary bilgilerinle değiştir (README.md içinde adımlar var).
+# Cloudinary hesabına bağlı: cloud_name ve api_key'i kendi Cloudinary
+# panelindeki (Dashboard, sol üst) bilgilerinle değiştir. Bunlar gizli
+# bilgi değildir, herkese açık config.yml içinde durmaları güvenlidir.
+# NOT: Yeni bir "unsigned" preset açmana gerek yok — Cloudinary hesabında
+# zaten hazır duran "ml_default" (Media Library) preset'i bu widget için
+# otomatik kullanılır, Signed olması normaldir.
 media_library:
   name: cloudinary
   config:
@@ -89,6 +93,11 @@ collections:
               - { label: "Alt Başlık", name: "subtitle", widget: "string", required: false }
               - { label: "Açıklama Metni", name: "description", widget: "text", required: false }
               - { label: "Logo / Kapak Görseli (grid'de görünen)", name: "logo", widget: "image" }
+              - label: "Video Linki (opsiyonel)"
+                name: "video"
+                widget: "string"
+                required: false
+                hint: "Videoyu Cloudinary'ye (ya da YouTube/Vimeo'ya) elle yükle, buraya sadece linkini yapıştır. Popup açılınca ilk sırada bu video oynar."
               - label: "Popup Galeri Görselleri (sırayla gösterilir)"
                 name: "images"
                 widget: "list"
