@@ -3,15 +3,17 @@
   "color": "#4F9E7C",
   "brands": [
     {
-      "id": "jekyll-hyde",
-      "name": "jekyll & hyde",
-      "subtitle": "logo and identity design",
-      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
-      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Jekyll+%26+Hyde&font=roboto",
+      "id": "Jekyll & Hyde Musical",
+      "name": "Jekyll & Hyde Musical",
+      "subtitle": "Logo and font design",
+      "description": "Dünyaca ünlü Dr. Jekyll ve Mr. Hyde romanında Dr. Jekyll diyor ki:\n\n“Ben, gündüz gözüyle öğrenip ufkumu genişletmeye ve bir yandan acılarımdan kurtulmaya çabalarken ne denli kendimsem, zincirlerimden boşanıp günaha batarken de o ölçüde kendimim. Ama ben, ikiyüzlülük içime işlemiş olsa da asla bir sahtekâr değilim. Ben herkesim. Çünkü herkesin iki yüzü vardır.”\n\nRobert Louis Stevenson’ın ünlü eserinden uyarlanan Jekyll&Hyde Müzikali için tasarladığımız yazı karakteri Jekyll & Hyde Irregular, herkesin içindeki ikiyüzlülüğü temsil ediyor.",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790237264/logolar-12_emvxas.png",
       "images": [
-        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Jekyll+%26+Hyde+1",
-        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Jekyll+%26+Hyde+2"
-      ]
+        "https://res.cloudinary.com/liktnikz/image/upload/v1790237636/9322e605a9d9b92c580098d43e02ca88_hlqp4q.jpg",
+        "https://res.cloudinary.com/liktnikz/image/upload/v1790237682/Jekyll-Hyde-muzikali_iqezr8.jpg"
+      ],
+      "entries": [],
+      "video": "https://res.cloudinary.com/liktnikz/video/upload/v1785235208/Jekyll_Hyde_-_Bir_Broadway_Mu%CC%88zikali_whwqc2.mp4"
     },
     {
       "id": "kariyer-net",
