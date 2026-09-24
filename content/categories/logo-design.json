@@ -6,7 +6,7 @@
       "id": "Jekyll-Hyde-Musical",
       "name": "Jekyll & Hyde Musical",
       "subtitle": "Logo and font design",
-      "description": "Dünyaca ünlü Dr. Jekyll ve Mr. Hyde romanında Dr. Jekyll diyor ki:\n\n“Ben, gündüz gözüyle öğrenip ufkumu genişletmeye ve bir yandan acılarımdan kurtulmaya çabalarken ne denli kendimsem, zincirlerimden boşanıp günaha batarken de o ölçüde kendimim. Ama ben, ikiyüzlülük içime işlemiş olsa da asla bir sahtekâr değilim. Ben herkesim. Çünkü herkesin iki yüzü vardır.”\n\nRobert Louis Stevenson’ın ünlü eserinden uyarlanan Jekyll&Hyde Müzikali için tasarladığımız yazı karakteri Jekyll & Hyde Irregular, herkesin içindeki ikiyüzlülüğü temsil ediyor.",
+      "description": "In the world-famous novel Strange Case of Dr Jekyll and Mr Hyde, Dr Jekyll says:\n\n\"Though so profound a double-dealer, I was in no sense a hypocrite; both sides of me were in dead earnest; I was no more myself when I laid aside restraint and plunged in shame, than when I laboured, in the eye of day, at the furtherance of knowledge or the relief of sorrow and suffering.\"\n\nJekyll & Hyde Irregular, the typeface we designed for the Jekyll & Hyde Musical, adapted from Robert Louis Stevenson's famous work, represents the duality that lies within us all.\n\n\"I am everyone. Because everyone has two faces.\" cümlesini alıntının içinden çıkardım, çünkü Stevenson'ın metninde geçmiyor ve ona aitmiş gibi durması yanlış olur. Bu fikri korumak isterseniz son paragrafa şöyle ekleyebilirsiniz: \"...represents the duality that lies within us all, because everyone has two faces.\"",
       "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790237264/logolar-12_emvxas.png",
       "images": [
         "https://res.cloudinary.com/liktnikz/image/upload/v1790237636/9322e605a9d9b92c580098d43e02ca88_hlqp4q.jpg",
@@ -16,15 +16,17 @@
       "video": "https://res.cloudinary.com/liktnikz/video/upload/v1785235208/Jekyll_Hyde_-_Bir_Broadway_Mu%CC%88zikali_whwqc2.mp4"
     },
     {
-      "id": "kariyer-net",
-      "name": "kariyer.net",
-      "subtitle": "logo and brandguide design",
-      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
-      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=kariyer.net&font=roboto",
+      "id": "Tim",
+      "name": "Tim Digitize",
+      "subtitle": "Logo and brandguide design",
+      "description": "Tim is a digital farming technology brand born from Timsan Tarım, a company with more than 35 years of heritage in agricultural equipment. It develops rate and section control computers and control boxes for spraying, fertilizing and seeding machinery, along with TimApp, the platform farmers use to manage their operations. Every product is designed and manufactured in its own facilities.\n\nThe brand's core belief is clear: digital farming should not be the privilege of large farms and big budgets. By offering accessible pricing, cross-brand compatibility and support in the farmer's own language, Tim aims to bring precision farming technology to every field.",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790239691/tim_sb_logo_xxepyr.png",
       "images": [
-        "https://placehold.co/1200x800/1a1a1a/ffffff?text=kariyer.net+1",
-        "https://placehold.co/1200x800/1a1a1a/ffffff?text=kariyer.net+2"
-      ]
+        "https://res.cloudinary.com/liktnikz/image/upload/v1790239691/tim_logo_gytqiy.png",
+        "https://res.cloudinary.com/liktnikz/image/upload/v1790239691/tim_logo_gytqiy.png"
+      ],
+      "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790240985/tim_logo_olusum_sovgna.mp4",
+      "entries": []
     },
     {
       "id": "linns-coffee",
