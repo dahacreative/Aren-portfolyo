@@ -70,23 +70,25 @@
       ]
     },
     {
-      "id": "luppo",
-      "name": "luppo",
-      "subtitle": "logo design",
-      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
-      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=LUPPO&font=roboto",
+      "id": "is-ortagim",
+      "name": "Vodafone İş Ortağım",
+      "subtitle": "Logo design",
+      "description": "Vodafone İş Ortağım was a service program developed by Vodafone Turkey for its corporate customers, designed to meet all of a business's voice and data communication needs from a single source. Featuring competitive corporate tariffs, integrated fixed and mobile internet solutions, device campaigns, and dedicated account advisory services, the program also aimed to add value for businesses through profession-specific packages and an extensive discount network.",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790259245/vodafone_isortagim_sb_logo_n8xejd.png",
       "images": [
-        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Luppo+1"
-      ]
+        "https://res.cloudinary.com/liktnikz/image/upload/v1790259245/vodafone_isortagim_cttelw.jpg"
+      ],
+      "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790261317/YTDown.com_YouTube_Media_ZMhAqdyUdd4_001_480p_ecawv0.mp4"
     },
     {
-      "id": "nutymax",
-      "name": "nutymax",
+      "id": "row-z-report",
+      "name": "Row-Z Report",
       "subtitle": "logo design",
-      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
-      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Nutymax&font=roboto",
+      "description": "Row-Z Report is an independent sports analytics platform that interprets the game through data, true to its motto \"Analysis from the back seats.\" Based in London and active since 2017, it delivers statistically driven insights across football, basketball and tennis. Using advanced metrics such as its proprietary expected goals (xG) model and expected points (xP), Row-Z Report looks beyond the scoreline to reveal the real story behind team and player performance, making it a trusted resource for fans, professionals and analytics enthusiasts alike.",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790261756/rowz_sb_logo_nxdgdv.png",
       "images": [
-        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Nutymax+1"
+        "https://res.cloudinary.com/liktnikz/image/upload/v1790261756/rowzlogo_hhgfz3.png",
+        "https://res.cloudinary.com/liktnikz/image/upload/v1790261803/Business_Card_Mockup_4_ttj5dm.jpg"
       ]
     },
     {
