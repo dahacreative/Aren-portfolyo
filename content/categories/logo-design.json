@@ -12,8 +12,9 @@
         "https://res.cloudinary.com/liktnikz/image/upload/v1790237636/9322e605a9d9b92c580098d43e02ca88_hlqp4q.jpg",
         "https://res.cloudinary.com/liktnikz/image/upload/v1790237682/Jekyll-Hyde-muzikali_iqezr8.jpg"
       ],
-      "entries": [],
-      "video": "https://res.cloudinary.com/liktnikz/video/upload/v1785235208/Jekyll_Hyde_-_Bir_Broadway_Mu%CC%88zikali_whwqc2.mp4"
+      "videos": [
+        "https://res.cloudinary.com/liktnikz/video/upload/v1785235208/Jekyll_Hyde_-_Bir_Broadway_Mu%CC%88zikali_whwqc2.mp4"
+      ]
     },
     {
       "id": "Tim",
@@ -30,8 +31,9 @@
         "https://res.cloudinary.com/liktnikz/image/upload/v1790239859/tim_kurumsal_kimlik_final-23_qn2y2h.png",
         "https://res.cloudinary.com/liktnikz/image/upload/v1790239853/tim_kurumsal_kimlik_final-24_gwduas.png"
       ],
-      "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790240985/tim_logo_olusum_sovgna.mp4",
-      "entries": []
+      "videos": [
+        "https://res.cloudinary.com/liktnikz/video/upload/v1790240985/tim_logo_olusum_sovgna.mp4"
+      ]
     },
     {
       "id": "linns-coffee",
@@ -57,7 +59,9 @@
       "images": [
         "https://res.cloudinary.com/liktnikz/image/upload/v1790256523/patlican-r-8616b387_evoe15.jpg"
       ],
-      "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790257752/videoplayback_2_wzcatm.mp4"
+      "videos": [
+        "https://res.cloudinary.com/liktnikz/video/upload/v1790257752/videoplayback_2_wzcatm.mp4"
+      ]
     },
     {
       "id": "Usta-Donerci",
@@ -78,7 +82,9 @@
       "images": [
         "https://res.cloudinary.com/liktnikz/image/upload/v1790259245/vodafone_isortagim_cttelw.jpg"
       ],
-      "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790261317/YTDown.com_YouTube_Media_ZMhAqdyUdd4_001_480p_ecawv0.mp4"
+      "videos": [
+        "https://res.cloudinary.com/liktnikz/video/upload/v1790261317/YTDown.com_YouTube_Media_ZMhAqdyUdd4_001_480p_ecawv0.mp4"
+      ]
     },
     {
       "id": "row-z-report",
@@ -110,7 +116,9 @@
       "images": [
         "https://res.cloudinary.com/liktnikz/image/upload/v1790262766/koczerde_b_i_logo_gmqib8.png"
       ],
-      "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790262874/cba_birincilik_1_rev_logolu_f7nwix.mp4"
+      "videos": [
+        "https://res.cloudinary.com/liktnikz/video/upload/v1790262874/cba_birincilik_1_rev_logolu_f7nwix.mp4"
+      ]
     }
   ]
 }

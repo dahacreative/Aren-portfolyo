@@ -8,7 +8,9 @@
       "subtitle": "motion graphics",
       "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
       "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Marka+1&font=roboto",
-      "video": "https://res.cloudinary.com/demo/video/upload/dog.mp4",
+      "videos": [
+        "https://res.cloudinary.com/demo/video/upload/dog.mp4"
+      ],
       "images": [
         "https://placehold.co/1200x800/1a1a1a/ffffff?text=Motion+1"
       ]

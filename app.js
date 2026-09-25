@@ -212,9 +212,14 @@
     }
 
     var media = [];
-    if (brand.video) {
-      var v = toEmbed(brand.video);
+    (brand.videos || []).forEach(function (url) {
+      var v = toEmbed(url);
       media.push({ type: v.kind, src: v.src });
+    });
+    // Geriye dönük uyumluluk: eski tekil "video" alanıyla girilmiş içerik varsa onu da göster.
+    if (brand.video) {
+      var v2 = toEmbed(brand.video);
+      media.push({ type: v2.kind, src: v2.src });
     }
     (brand.images || []).forEach(function (src) {
       media.push({ type: "image", src: src });

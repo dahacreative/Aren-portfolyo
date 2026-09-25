@@ -96,11 +96,12 @@ collections:
                 widget: "text"
                 required: false
               - { label: "Logo / Kapak Görseli (grid'de görünen)", name: "logo", widget: "image" }
-              - label: "Video Linki (opsiyonel)"
-                name: "video"
-                widget: "string"
+              - label: "Video Linkleri (opsiyonel, istediğin kadar ekle/çıkar)"
+                name: "videos"
+                widget: "list"
                 required: false
-                hint: "Videoyu Cloudinary'ye (ya da YouTube/Vimeo'ya) elle yükle, buraya sadece linkini yapıştır. Popup açılınca ilk sırada bu video oynar."
+                hint: "Videoyu Cloudinary'ye (ya da YouTube/Vimeo'ya) elle yükle, her video için buraya bir link ekle. Görseller gibi 'Add' ile ekler, çöp kutusuyla silersin. Popup'ta videolar galeri görsellerinden önce, eklediğin sırayla oynar."
+                field: { label: "Video Linki", name: "video", widget: "string" }
               - label: "Popup Galeri Görselleri (sırayla gösterilir, ok tuşlarıyla gezilir)"
                 name: "images"
                 widget: "list"
