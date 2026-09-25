@@ -3,15 +3,25 @@
   "color": "#F2811E",
   "brands": [
     {
-      "id": "sample-award-1",
+      "id": "cannes",
       "name": "cannes lions",
       "subtitle": "birden fazla kez kazanıldı",
-      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Cannes+Lions&font=roboto",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790344365/cannes_ajt3wk.webp",
       "entries": [
-        { "label": "2019 — Gold, Getir Campaign", "image": "https://placehold.co/1200x800/1a1a1a/ffffff?text=Getir+Campaign" },
-        { "label": "2020 — Silver, Burger King Campaign", "image": "https://placehold.co/1200x800/1a1a1a/ffffff?text=Burger+King+Campaign" },
-        { "label": "2022 — Bronze, Ford Campaign", "image": "https://placehold.co/1200x800/1a1a1a/ffffff?text=Ford+Campaign" }
-      ]
+        {
+          "label": "2022 — Bronze Lion - Samsung Hearing Hands",
+          "image": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4"
+        },
+        {
+          "label": "2020 — Silver, Burger King Campaign",
+          "image": "https://placehold.co/1200x800/1a1a1a/ffffff?text=Burger+King+Campaign"
+        },
+        {
+          "label": "2022 — Bronze, Ford Campaign",
+          "image": "https://placehold.co/1200x800/1a1a1a/ffffff?text=Ford+Campaign"
+        }
+      ],
+      "description": "Cannes Lions"
     },
     {
       "id": "sample-award-2",
