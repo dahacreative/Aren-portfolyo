@@ -308,36 +308,87 @@ window.__INLINE_CONTENT = {
     "color": "#BA3FC7",
     "brands": [
       {
-        "id": "sample-motion-1",
-        "name": "örnek marka 1",
+        "id": "Coensio",
+        "name": "Coensio",
         "subtitle": "motion graphics",
-        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
-        "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Marka+1&font=roboto",
+        "description": "",
+        "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790322816/logolar-06_chuspz.png",
         "videos": [
-          "https://res.cloudinary.com/demo/video/upload/dog.mp4"
+          "https://res.cloudinary.com/liktnikz/video/upload/v1785250244/1_pjdhm9.mov",
+          "https://res.cloudinary.com/liktnikz/video/upload/v1785249638/Coensio_Find_The_One_for_the_best_hire_avaylj.mp4"
         ],
-        "images": [
-          "https://placehold.co/1200x800/1a1a1a/ffffff?text=Motion+1"
+        "images": []
+      },
+      {
+        "id": "kariyernet",
+        "name": "Kariyer.net - Üniversite Rehberi",
+        "subtitle": "concept, design & animation",
+        "description": "",
+        "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790337673/logolar-04_uuytn1.png",
+        "images": [],
+        "videos": [
+          "https://res.cloudinary.com/liktnikz/video/upload/v1785327843/Tercih_do%CC%88neminde_akl%C4%B1ndaki_tu%CC%88m_sorular%C4%B1n_cevaplar%C4%B1_U%CC%88niversite_Rehberi_nde_-_Kariyer.net_1080p_h264_yqse5j.mp4"
         ]
       },
       {
-        "id": "sample-motion-2",
-        "name": "örnek marka 2",
-        "subtitle": "motion graphics",
-        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
-        "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Marka+2&font=roboto",
-        "images": [
-          "https://placehold.co/1200x800/1a1a1a/ffffff?text=Motion+2"
+        "id": "kariyernet25",
+        "name": "Kariyer.net - 25. Yıl",
+        "subtitle": "concept, design & animation",
+        "description": "",
+        "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790337673/logolar-04_uuytn1.png",
+        "images": [],
+        "videos": [
+          "https://res.cloudinary.com/liktnikz/video/upload/v1785327840/I%CC%87yi_is%CC%A7_nedir_-_Kariyer.net_1080p_h264_j6trnk.mp4"
         ]
       },
       {
-        "id": "sample-motion-3",
-        "name": "örnek marka 3",
-        "subtitle": "motion graphics",
-        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
-        "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Marka+3&font=roboto",
-        "images": [
-          "https://placehold.co/1200x800/1a1a1a/ffffff?text=Motion+3"
+        "id": "kariyernet8mart",
+        "name": "Kariyer.net - 8 Mart",
+        "subtitle": "concept, design & animation",
+        "description": "Launched by Kariyer.net for International Women's Day on March 8, the #BitsinBuSorular (\"End These Questions\") campaign is a social awareness initiative that aims to raise awareness of the sexist and discriminatory interview questions female candidates face in job interviews.",
+        "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790337673/logolar-04_uuytn1.png",
+        "videos": [
+          "https://res.cloudinary.com/liktnikz/video/upload/v1785327834/Kariyer.net_-_8_Mart_bitsinbusorular_-_2_trwazt.mp4",
+          "https://res.cloudinary.com/liktnikz/video/upload/v1785327837/Kariyer.net_-_8_Mart_bitsinbusorular_-_4_hxxvjn.mp4",
+          "https://res.cloudinary.com/liktnikz/video/upload/v1785327844/Kariyer.net_-_8_Mart_bitsinbusorular_-_Case_Video_sgbvve.mp4"
+        ]
+      },
+      {
+        "id": "kariyergrup",
+        "name": "Kariyer Grup - Vizyon Toplantısı Lansman",
+        "subtitle": "concept, design & animation",
+        "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790339650/kg_sb_logo_g4wscq.png",
+        "videos": [
+          "https://res.cloudinary.com/liktnikz/video/upload/v1785327860/Kariyer_Group_Lansman_mpqpwp.mp4"
+        ]
+      },
+      {
+        "id": "henkelyenilikodulleri",
+        "name": "Henkel - Innovation Awards 2026",
+        "subtitle": "concept, design & animation",
+        "description": "A promotional film for Henkel Türkiye's annual internal Innovation Awards, in which one product from each of three product groups competes.",
+        "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790341125/logolar-02_r5pv2n.png",
+        "videos": [
+          "https://res.cloudinary.com/liktnikz/video/upload/v1784626372/yenilik_odulleri_edit_rev5_ju2k00.mp4"
+        ]
+      },
+      {
+        "id": "henkelcoco",
+        "name": "Henkel - Coco Awards Case Movie",
+        "subtitle": "concept, design & animation",
+        "description": "Case video design for the Coco Awards. The Coco Awards is a prestigious annual internal communications and recognition program that Henkel organizes to honor its corporate communications teams and projects around the world.",
+        "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790341125/logolar-02_r5pv2n.png",
+        "videos": [
+          "https://res.cloudinary.com/liktnikz/video/upload/v1784627097/HENKEL_COCO_MIX_V2_qz3q0m.mp4"
+        ]
+      },
+      {
+        "id": "henkel-60-yil",
+        "name": "Henkel - Henkel Turkey 60th Anniversary",
+        "subtitle": "Henkel - Coco Awards Case Movie",
+        "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790341125/logolar-02_r5pv2n.png",
+        "videos": [
+          "https://res.cloudinary.com/liktnikz/video/upload/v1784626905/Tu%CC%88rk_Henkel_60._Y%C4%B1l_zmnup4.mp4"
         ]
       }
     ]
@@ -383,14 +434,14 @@ window.__INLINE_CONTENT = {
     "color": "#F2811E",
     "brands": [
       {
-        "id": "sample-award-1",
+        "id": "cannes",
         "name": "cannes lions",
         "subtitle": "birden fazla kez kazanıldı",
-        "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Cannes+Lions&font=roboto",
+        "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790344365/cannes_ajt3wk.webp",
         "entries": [
           {
-            "label": "2019 — Gold, Getir Campaign",
-            "image": "https://placehold.co/1200x800/1a1a1a/ffffff?text=Getir+Campaign"
+            "label": "2022 — Bronze Lion - Samsung Hearing Hands",
+            "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4"
           },
           {
             "label": "2020 — Silver, Burger King Campaign",
@@ -400,7 +451,8 @@ window.__INLINE_CONTENT = {
             "label": "2022 — Bronze, Ford Campaign",
             "image": "https://placehold.co/1200x800/1a1a1a/ffffff?text=Ford+Campaign"
           }
-        ]
+        ],
+        "description": "Cannes Lions"
       },
       {
         "id": "sample-award-2",

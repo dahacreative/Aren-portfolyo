@@ -201,9 +201,14 @@
     if (!brand) return;
 
     // "entries" varsa (ör. awards): sol tarafta tıklanabilir bir liste
-    // gösterilir, her satır kendi görselini sağda açar (galeri modu yerine).
+    // gösterilir, her satır kendi görselini ya da videosunu sağda açar
+    // (galeri modu yerine). Video girilmişse görsele göre öncelikli oynar.
     if (brand.entries && brand.entries.length) {
       var entryMedia = brand.entries.map(function (e) {
+        if (e.video) {
+          var v = toEmbed(e.video);
+          return { type: v.kind, src: v.src, label: e.label };
+        }
         return { type: "image", src: e.image, label: e.label };
       });
       currentPopupState = { media: entryMedia, index: 0, brand: brand, color: cat.color, catId: catId, mode: "entries" };

@@ -108,15 +108,20 @@ collections:
                 required: false
                 hint: "Aşağıdaki 'Tıklanabilir Liste' doldurulursa bu galeri yerine o liste kullanılır."
                 field: { label: "Görsel", name: "image", widget: "image" }
-              - label: "Tıklanabilir Liste (ör. Awards için: her satır bir kazanım, tıklanınca sağda o işin görseli açılır)"
+              - label: "Tıklanabilir Liste (ör. Awards için: her satır bir kazanım, tıklanınca sağda o işin görseli/videosu açılır)"
                 name: "entries"
                 widget: "list"
                 required: false
                 summary: "{{fields.label}}"
-                hint: "Bu doldurulursa yukarıdaki galeri yerine bu liste kullanılır. Her satır için hem metni hem görseli gir."
+                hint: "Bu doldurulursa yukarıdaki galeri yerine bu liste kullanılır. Her satır için metni gir, sonra görsel veya video linkinden birini (istersen ikisini de) doldur — video girilmişse video oynar."
                 fields:
                   - { label: "Liste Metni (ör. '2019 — Gold, Getir Campaign')", name: "label", widget: "string" }
-                  - { label: "Görsel", name: "image", widget: "image" }
+                  - { label: "Görsel (video kullanmıyorsan doldur)", name: "image", widget: "image", required: false }
+                  - label: "Video Linki (opsiyonel, girilirse görsel yerine bu oynar)"
+                    name: "video"
+                    widget: "string"
+                    required: false
+                    hint: "Videoyu Cloudinary'ye (ya da YouTube/Vimeo'ya) elle yükle, buraya linkini yapıştır."
       - name: "advertising-design"
         label: "Advertising Design"
         file: "content/categories/advertising-design.json"
