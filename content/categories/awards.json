@@ -4,9 +4,9 @@
   "brands": [
     {
       "id": "cannes",
-      "name": "cannes lions",
-      "subtitle": "birden fazla kez kazanıldı",
-      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790344365/cannes_ajt3wk.webp",
+      "name": "Cannes Lions",
+      "subtitle": "",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790347796/cannes_copy_np6yvh.png",
       "entries": [
         {
           "label": "2022 — Bronze Lion - Samsung Hearing Hands",
@@ -21,7 +21,8 @@
           "image": "https://placehold.co/1200x800/1a1a1a/ffffff?text=Ford+Campaign"
         }
       ],
-      "description": "Cannes Lions"
+      "description": "Cannes Lions",
+      "videos": []
     },
     {
       "id": "sample-award-2",
