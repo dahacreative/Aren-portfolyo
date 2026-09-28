@@ -27,23 +27,83 @@
       "videos": []
     },
     {
-      "id": "sample-award-2",
-      "name": "epica awards",
-      "subtitle": "silver - 2020",
-      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
-      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Epica&font=roboto",
-      "images": [
-        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Epica"
+      "id": "gmk",
+      "name": "GMK (Association of Graphic Designers in Turkey)",
+      "subtitle": "",
+      "description": "",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790599967/gmk_logo_ucb1sw.png",
+      "images": [],
+      "videos": [],
+      "entries": [
+        {
+          "label": "2008 - Best Logo",
+          "image": "https://res.cloudinary.com/liktnikz/image/upload/v1790256523/patlican-r-8616b387_evoe15.jpg"
+        }
       ]
     },
     {
-      "id": "sample-award-3",
-      "name": "kristal elma",
-      "subtitle": "bronz - 2021",
-      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
-      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Kristal+Elma&font=roboto",
-      "images": [
-        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Kristal+Elma"
+      "id": "kristal-elma",
+      "name": "Kristal Elma (Crystal Apple)",
+      "subtitle": "",
+      "description": "Founded in 1988 by the Association of Advertising Agencies of Turkey, Kristal Elma is the country's oldest and most prestigious award for creative communication. For more than three decades, it has set the benchmark for excellence in Turkish advertising, recognizing outstanding work across advertising, design, digital and media.\n\nEach year, the industry's most respected creative leaders sit on the jury and judge the entries with uncompromising standards. Winning a Kristal Elma is the highest recognition a piece of creative work can earn in Turkey. It is a mark of ideas that are bold, strategically sharp and flawlessly crafted.\n\nFor agencies, brands and creatives alike, Kristal Elma is more than an award. It is where Turkey's creative industry measures itself, celebrates its best, and raises the bar for what comes next.",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790603321/kristal_elma_logo_n9jn2b.png",
+      "images": [],
+      "entries": [
+        {
+          "label": "2010 - Outdoor / Crystal Apple - Vodafone Youth Campaign",
+          "image": "https://res.cloudinary.com/liktnikz/image/upload/v1790604276/20100118155559_pk4bft.jpg"
+        },
+        {
+          "label": "2010 - Outdoor multi-channel campaign / Bronze Apple - Vodafone Youth Campaign",
+          "image": "https://res.cloudinary.com/liktnikz/image/upload/v1790604276/20100118155559_pk4bft.jpg"
+        },
+        {
+          "label": "2011 - TV / Crystal Apple - Vodafone Tariff Campaign",
+          "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790605560/Vodafone_-_Uc%CC%A7an_Selim_oogz3c.mp4"
+        },
+        {
+          "label": "2012 - Outdoor / Crystal Apple - Burger King Hot Sauce Billboard ",
+          "image": "https://res.cloudinary.com/liktnikz/image/upload/v1790606111/burger-king-hot-sauce-2000-82516_ssbsg2.jpg"
+        },
+        {
+          "label": "2015 - Outdoor / Crystal Apple - Samsung Hearing Hands",
+          "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4"
+        },
+        {
+          "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4",
+          "label": "2015 - Digital Campaign / Crystal Apple - Samsung Hearing Hands"
+        },
+        {
+          "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4",
+          "label": "2015 - Digital Viral Film / Crystal Apple - Samsung Hearing Hands"
+        },
+        {
+          "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4",
+          "label": "2015 - Direct Marketing / Crystal Apple - Samsung Hearing Hands"
+        },
+        {
+          "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4",
+          "label": "2015 - Media / Crystal Apple - Samsung Hearing Hands"
+        },
+        {
+          "label": "2015 - Media / Silver Apple - Samsung Hearing Hands",
+          "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4"
+        }
+      ]
+    },
+    {
+      "id": "effie-turkiye",
+      "name": "Effie",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790599967/efiie_logo_tspkhs.png",
+      "entries": [
+        {
+          "label": "2008 - Silver Effie - Avea Patlican Youth Platform Launch Campaign",
+          "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790607440/Avea_Patl%C4%B1can_Reklam%C4%B1_2007_-_Net_ses_-_C%CC%A7imenC%CC%A7ar_288p_e0uics.mp4"
+        },
+        {
+          "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4",
+          "label": "2015 - Golden Effie - Samsung Hearing Hands"
+        }
       ]
     }
   ]
