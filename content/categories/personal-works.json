@@ -3,33 +3,16 @@
   "color": "#5B4FEE",
   "brands": [
     {
-      "id": "sample-personal-1",
-      "name": "kişisel çalışma 1",
-      "subtitle": "personal works",
-      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
-      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Kisisel+1&font=roboto",
+      "id": "art-of-nodji",
+      "name": "Art of Nodji",
+      "subtitle": "",
+      "description": "\"Art of Nodji\" is an innovative digital art and illustration project created by Istanbul-based graphic designer and art director Aren Selvioğlu. The project blends traditional Armenian cultural history with global pop-culture icons and Armenian phrases to help preserve and revitalize the endangered Western Armenian language. You can learn more about the project on Aren Selvioğlu's official platforms.\nhttps://www.instagram.com/art_of_nodji/",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790691845/nodji_logo_jjtt0n.png",
       "images": [
         "https://placehold.co/1200x800/1a1a1a/ffffff?text=Kisisel+1"
-      ]
-    },
-    {
-      "id": "sample-personal-2",
-      "name": "kişisel çalışma 2",
-      "subtitle": "personal works",
-      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
-      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Kisisel+2&font=roboto",
-      "images": [
-        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Kisisel+2"
-      ]
-    },
-    {
-      "id": "sample-personal-3",
-      "name": "kişisel çalışma 3",
-      "subtitle": "personal works",
-      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
-      "logo": "https://placehold.co/400x200/transparent/1a1a1a?text=Kisisel+3&font=roboto",
-      "images": [
-        "https://placehold.co/1200x800/1a1a1a/ffffff?text=Kisisel+3"
+      ],
+      "videos": [
+        "https://www.instagram.com/art_of_nodji/"
       ]
     }
   ]
