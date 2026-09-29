@@ -9,17 +9,17 @@
       "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790347796/cannes_copy_np6yvh.png",
       "entries": [
         {
-          "label": "2022 — Promo & Activation / Bronze Lion - Samsung Hearing Hands",
+          "label": "2015 — Promo & Activation / Bronze Lion - Samsung Hearing Hands",
           "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4"
         },
         {
-          "label": "2022 — Promo & Activation / Bronze Lion - Samsung Hearing Hands",
-          "image": "https://placehold.co/1200x800/1a1a1a/ffffff?text=Burger+King+Campaign",
+          "label": "2015 — Promo & Activation / Bronze Lion - Samsung Hearing Hands",
+          "image": "",
           "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4"
         },
         {
-          "label": "2022 — 6 Shortlist",
-          "image": "https://placehold.co/1200x800/1a1a1a/ffffff?text=Ford+Campaign",
+          "label": "2015 — 6 Shortlist",
+          "image": "",
           "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4"
         }
       ],
@@ -103,6 +103,58 @@
         {
           "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4",
           "label": "2015 - Golden Effie - Samsung Hearing Hands"
+        }
+      ]
+    },
+    {
+      "id": "goldendrum",
+      "name": "Golden Drum",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790690413/golden_drum_logo_xgmvfp.png",
+      "entries": [
+        {
+          "label": "2015 — Marketing PR / Silver Drum - Samsung Hearing Hands",
+          "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4"
+        },
+        {
+          "label": "2015 — Live Experience / Silver Drum - Samsung Hearing Hands",
+          "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4"
+        }
+      ]
+    },
+    {
+      "id": "eurobest",
+      "name": "Eurobest Awards",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790690413/eurobest_logo_o1b4tc.png",
+      "entries": [
+        {
+          "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4",
+          "label": "2015 — Interactive Outdoor Experiences / Silver - Samsung Hearing Hands"
+        },
+        {
+          "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4",
+          "label": "2015 — Interactive Social Video / Bronze - Samsung Hearing Hands"
+        }
+      ]
+    },
+    {
+      "id": "dandad",
+      "name": "D&AD Awards",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790690412/dandad_logo_wmsop6.png",
+      "entries": [
+        {
+          "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4",
+          "label": "2015 — Graphite Pencil - Samsung Hearing Hands"
+        }
+      ]
+    },
+    {
+      "id": "epica",
+      "name": "Epica Awards",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790690413/epica_logo_larj58.png",
+      "entries": [
+        {
+          "video": "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4",
+          "label": "2015 — Golden Epica - Samsung Hearing Hands"
         }
       ]
     }
