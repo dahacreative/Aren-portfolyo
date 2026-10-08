@@ -9,6 +9,35 @@
       "description": "",
       "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790692786/soon_hv0vv2.png",
       "images": []
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1791467065/samsung_logo_s5grkl.png",
+      "videos": [
+        "https://res.cloudinary.com/liktnikz/video/upload/v1790344827/Hearing_Hands_-_Touching_Ad_By_Samsung_gfavhe.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791468996/samsung_-_crystal_blue_C%CC%A7amas%CC%A7%C4%B1r_makinesi_720p_uvxeu2.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791468991/samsung_-_bog%CC%86azda_beklenmedik_bir_anons_720p_tukczm.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791468996/samsung_-_crystal_blue_C%CC%A7amas%CC%A7%C4%B1r_makinesi_720p_uvxeu2.mp4"
+      ]
+    },
+    {
+      "id": "orkid ",
+      "name": "Orkid / Alldays",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1791467064/orkid_logo_gwsbxz.png",
+      "videos": [
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791474351/orkid_-_k%C4%B1z_gibi_480p_h0lko6.mp4"
+      ]
+    },
+    {
+      "id": "pepsi",
+      "name": "Pepsi",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1791467064/pepsi_logo_y8ua1n.png",
+      "videos": [
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791474501/pepsi____bedava_pepsi_mi_dag%CC%86%C4%B1tal%C4%B1m__v1_1080p_hrcuga.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791474504/pepsi____pepsi_I%CC%87c%CC%A7meyen_kalmayacak_v1_1080p_zijqjw.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791474522/pepsi____bakkal_promo_-_doritos_v1_1080p_ruzdrj.mp4"
+      ]
     }
   ]
 }
