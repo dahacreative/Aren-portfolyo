@@ -53,12 +53,52 @@
       "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1791467064/ipton_logo_geowo8.png"
     },
     {
+      "id": "vodafone",
+      "name": "Vodafone",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1791467064/vodafone_logo_nmxamy.png",
+      "videos": [
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791536848/Vodafone_-_Para_-_S%CC%A7afak_Sezer_HD_bt2tf7.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791536844/Vodafone_Blackberry_-_onemedico01_480p_ymtpsf.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791536840/Vodafone_K%C4%B1rm%C4%B1z%C4%B1_Pasaport_Paris_j8wzvm.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791536838/Vodafone_Red_Ayr%C4%B1cal%C4%B1klar_Du%CC%88nyas%C4%B1_s10yp3.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791536837/Vodafone_K%C4%B1rm%C4%B1z%C4%B1_Avantaj_Reklam_filmi_bpkqrn.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791536835/Vodafone_Cep_Avantaj_Kasap_Reklam%C4%B1_Yeni_2012_-_reklamizzle_480p_xezaxo.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791536835/Vodafone_K%C4%B1rm%C4%B1z%C4%B1_Pasaport_Londra_tpwy23.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791536833/Vodafone_-_Ku%CC%88nefe_-_onemedico01_480p_jmgkod.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791536831/Vodafone_-_Denizden_Babam_C%CC%A7%C4%B1ksa_y1jcci.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791536833/Vodafone_Reklam%C4%B1_S%CC%A7afak_Sezer_Tugay_Selim_Su%CC%88per_Komedi_-_rugan035_360p_pljpfn.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791536832/Vodafone_Reklam%C4%B1_S%CC%A7afak_Sezer_Hakk%C4%B1_Selim_Su%CC%88per_Komedi_-_rugan035_360p_vlnet7.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791536829/Vodafone_Reklam%C4%B1_Orhan_Gencebay_S%CC%A7afak_Sezer_2010_-_terbet_480p_caursx.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791536829/Vodafone_-_Vahe_-_K%C4%B1rm%C4%B1z%C4%B1_Avantaj_-_onemedico01_480p_hdotww.mp4"
+      ]
+    },
+    {
       "id": "soon",
       "name": "soon...",
       "subtitle": "",
       "description": "",
       "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790692786/soon_hv0vv2.png",
       "images": []
+    },
+    {
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790599967/nuyumax_logo_zwwa7k.png",
+      "id": "nutymax",
+      "name": "Nutymax",
+      "videos": [
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791550241/Nutymax_-_Kuafo%CC%88r_eu20fe.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791550237/Nutymax_-_Hal%C4%B1_Saha_ywsb03.mp4"
+      ],
+      "images": [
+        "https://res.cloudinary.com/liktnikz/image/upload/v1791552846/urunlu_KV1_ybkjp6.jpg",
+        "https://res.cloudinary.com/liktnikz/image/upload/v1791553764/KV_IKILICAST_DIKEY_s15xvz.jpg",
+        "https://res.cloudinary.com/liktnikz/image/upload/v1791553763/KVhalisaha_IKILICAST_DIKEY_ivbvwz.jpg",
+        "https://res.cloudinary.com/liktnikz/image/upload/v1791553763/KUAFORCAST_YATAYT_KV_copy_c0gy80.jpg"
+      ],
+      "entries": [
+        {
+          "label": "a"
+        }
+      ]
     }
   ]
 }
