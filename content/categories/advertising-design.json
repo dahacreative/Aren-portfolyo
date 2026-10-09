@@ -73,14 +73,6 @@
       ]
     },
     {
-      "id": "soon",
-      "name": "soon...",
-      "subtitle": "",
-      "description": "",
-      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790692786/soon_hv0vv2.png",
-      "images": []
-    },
-    {
       "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790599967/nuyumax_logo_zwwa7k.png",
       "id": "nutymax",
       "name": "Nutymax",
@@ -95,6 +87,51 @@
         "https://res.cloudinary.com/liktnikz/image/upload/v1791553763/KUAFORCAST_YATAYT_KV_copy_c0gy80.jpg"
       ],
       "entries": []
+    },
+    {
+      "id": "luppo",
+      "name": "Luppo",
+      "videos": [
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791550241/Luppo_Sandvic%CC%A7_Kek_-_Ramazan_c78g0l.mp4"
+      ],
+      "images": [
+        "https://res.cloudinary.com/liktnikz/image/upload/v1791550243/ramazan_ufnzu3.jpg"
+      ]
+    },
+    {
+      "id": "kariyernet",
+      "name": "Kariyer.net",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790599968/knet_logo_ezbxmb.png",
+      "videos": [
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791550244/Kariyer.net_-_8_Mart_bitsinbusorular_-_2_uj4wdq.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791550237/Kariyer.net_-_8_Mart_bitsinbusorular_-_4_y114tf.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791550239/Kariyer.net_-_8_Mart_bitsinbusorular_-_1_kf26cp.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791550232/Kariyer.net_-_8_Mart_bitsinbusorular_-_3_uncgz8.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791550240/Kariyer_Group_Lansman_rljhkd.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1785327850/Babalar_Gu%CC%88nu%CC%88_Kutlu_Olsun_babal%C4%B1ktakariyeryapmak_-_Kariyer.net_1080p_h264_mahb84.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1785327840/I%CC%87yi_is%CC%A7_nedir_-_Kariyer.net_1080p_h264_j6trnk.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1785327843/Tercih_do%CC%88neminde_akl%C4%B1ndaki_tu%CC%88m_sorular%C4%B1n_cevaplar%C4%B1_U%CC%88niversite_Rehberi_nde_-_Kariyer.net_1080p_h264_yqse5j.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791550240/Kariyer_Group_Lansman_rljhkd.mp4"
+      ]
+    },
+    {
+      "id": "getir",
+      "name": "Getir",
+      "videos": [
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791474374/getir____kap%C4%B1_mutluluklar%C4%B1_-_sucuk_v1_1080p_hg37du.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791474386/getir____kap%C4%B1_mutluluklar%C4%B1_-_su_v1_1080p_z0vupd.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791474427/getir____kap%C4%B1_mutluluklar%C4%B1_-_haftal%C4%B1k_al%C4%B1s%CC%A7veris%CC%A7_v1_1080p_ugzx1d.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791474359/getir____kap%C4%B1_mutluluklar%C4%B1_-_dondurma_v1_1080p_usi77c.mp4"
+      ],
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1791555896/getir_logo_apq3jm.png"
+    },
+    {
+      "id": "soon",
+      "name": "soon...",
+      "subtitle": "",
+      "description": "",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790692786/soon_hv0vv2.png",
+      "images": []
     }
   ]
 }
