@@ -3,14 +3,6 @@
   "color": "#D6667A",
   "brands": [
     {
-      "id": "soon",
-      "name": "soon...",
-      "subtitle": "",
-      "description": "",
-      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790692786/soon_hv0vv2.png",
-      "images": []
-    },
-    {
       "id": "samsung",
       "name": "Samsung",
       "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1791467065/samsung_logo_s5grkl.png",
@@ -38,6 +30,35 @@
         "https://res.cloudinary.com/liktnikz/video/upload/v1791474504/pepsi____pepsi_I%CC%87c%CC%A7meyen_kalmayacak_v1_1080p_zijqjw.mp4",
         "https://res.cloudinary.com/liktnikz/video/upload/v1791474522/pepsi____bakkal_promo_-_doritos_v1_1080p_ruzdrj.mp4"
       ]
+    },
+    {
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1791467064/lays_logo_wkqade.png",
+      "id": "lays",
+      "name": "Lay's",
+      "videos": [
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791474474/lays____bahar_filmi_v1_1080p_lpyxph.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791474485/lay_s____f%C4%B1r%C4%B1ndan_v1_1080p_zknmhx.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791474406/lay_s____C%CC%A7anta_v1_1080p_pa4ky4.mp4"
+      ]
+    },
+    {
+      "id": "lipton-ice-tea",
+      "name": "Lipton Ice Tea",
+      "videos": [
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791474513/lipton_ice_tea____kolaya_kac%CC%A7ma_v1_1080p_p9f8wg.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791474516/lipton_ice_tea____kolaya_kac%CC%A7ma_-_sofra_v1_1080p_u4tngr.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791474508/lipton_ice_tea____hayko_dede_yle_I%CC%87ftar_v1_1080p_favcht.mp4",
+        "https://res.cloudinary.com/liktnikz/video/upload/v1791474475/lipton_ice_tea____yoga_v1_1080p_ltycht.mp4"
+      ],
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1791467064/ipton_logo_geowo8.png"
+    },
+    {
+      "id": "soon",
+      "name": "soon...",
+      "subtitle": "",
+      "description": "",
+      "logo": "https://res.cloudinary.com/liktnikz/image/upload/v1790692786/soon_hv0vv2.png",
+      "images": []
     }
   ]
 }
