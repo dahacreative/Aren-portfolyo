@@ -15,7 +15,7 @@ media_library:
     api_key: 554196976855164
 
 locale: "en"
-site_url: https://arenselvi.netlify.app/
+site_url: https://arenselvi.com/
 
 collections:
   - name: "settings"
