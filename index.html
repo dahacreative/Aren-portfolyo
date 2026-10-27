@@ -8,7 +8,14 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-NMXB50BCKP');
+try { if (location.search.indexOf('internal=1') > -1) localStorage.setItem('internal', '1'); if (location.search.indexOf('internal=0') > -1) localStorage.removeItem('internal'); } catch (e) {}
+  var cfg = {};
+  try { if (localStorage.getItem('internal') === '1') cfg.traffic_type = 'internal'; } catch (e) {}
+  gtag('config', 'G-NMXB50BCKP', cfg);
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href^="mailto:"],a[href^="tel:"]');
+    if (a) gtag('event', 'contact_click', { method: a.getAttribute('href').split(':')[0] });
+  }, true);
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>aren selvioğlu — portfolio</title>
